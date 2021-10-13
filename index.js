@@ -6,7 +6,7 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i])
 }
 // Q: What is the time complexity of the for loop?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // 1.2) You are challenged to find the 4th element of the array, and you came up with this solution:
@@ -23,11 +23,11 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 // Q: What is the time complexity of of this solution?
-// ANSWER:
+// ANSWER: O(1)
 
 
 // Q: Could you come up with a solution that has a better time complexity? If so, what is that time complexity?
-// ANSWER:
+// ANSWER: No, its already as optimal as it can be. I think doing answer = numbers[4] would be the same efficiency but less code, so technically better maybe?
 
 
 // 2) -------------------------------------------------------
@@ -37,7 +37,7 @@ function printA() {
     }
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER:O(1)
 
 
 // 3) -------------------------------------------------------
@@ -47,7 +47,7 @@ function printB(number) {
   }
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // 4) -------------------------------------------------------
@@ -59,7 +59,7 @@ function printC(num, arr) {
   }
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER:O(n^2)
 
 
 // 5) -------------------------------------------------------
@@ -69,7 +69,7 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 // Q: What is the time complexity of the nested for loop?
-// ANSWER:
+// ANSWER: O(n^2)
 
 
 // 6) -------------------------------------------------------
@@ -77,7 +77,7 @@ let newNumbersA = numbers.filter((num) => {
   return num < 5
 })
 // Q: What is the time complexity of the filter higher-order function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // 7) -------------------------------------------------------
@@ -85,7 +85,7 @@ let newNumbersB = numbers.map((num) => {
   return num * 3
 })
 // Q: What is the time complexity of the map higher-order function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // 8) -------------------------------------------------------
@@ -93,7 +93,7 @@ function removeNum() {
     numbers.splice(3,1)
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // 9) -------------------------------------------------------
@@ -101,7 +101,7 @@ function insertNum() {
     numbers.splice(3, 0, 19)
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // 10) -------------------------------------------------------
@@ -109,7 +109,7 @@ function pushNum() {
     numbers.push(25)
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER: O(1)
 
 
 // 11) -------------------------------------------------------
@@ -120,7 +120,7 @@ function printFirstTwoNames(array) {
 }
 
 // Q: What is the time complexity of the function? Could we write this function differently to accomplish the goal of the function in a faster time complexity?
-// ANSWER:
+// ANSWER: O(1) and I cant think of a faster way to do it at the moment
 
 
 // Advanced Challenges
